@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "DynaPuff", cursive;
+  font-family: "Poppins", sans-serif;
+}
+.div {
+  background-image: linear-gradient(to right top, #40ffc9, #05fa46);
+  border-radius: 5px;
+  width: 90%;
+  height: 40vh;
+  margin: auto;
+  margin-top: 8%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+.input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: black;
+  padding: 12px;
+  border-radius: 5px;
+  width: 700px;
+  height: 5vh;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+.submit {
+  margin: 0 0 0 20px;
+  border: none;
+  background-color: black;
+  border-radius: 5px;
+  width: 350px;
+  height: 6vh;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-input-placeholder {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+p {
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 6500;
+}
+.select {
+  margin: 0;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 350px;
+  height: 6vh;
+  padding-bottom: 1px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  border-right: 10px solid black;
+}
+.select option.option {
+  text-align: center;
+  font-size: 1rem;
+}
